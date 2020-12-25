@@ -1,0 +1,97 @@
+body
+{
+    padding: none;
+    border: none;
+    margin: none;
+    margin: 0 0 0 0;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:none;
+    padding-bottom: 15px;
+    border-bottom:groove;
+    border-color: black;
+}
+.icons
+{
+    height:100px;
+    width:100px;
+    margin-right:50%;
+    margin-left:0;
+    border:none;
+}
+header div 
+{
+    height: 50px;
+    padding-bottom: 25px ;
+    padding-top: 25px;
+    align-content: middle;
+}
+.search-bar input
+{
+    border-radius: 25px;
+    border-color: black;
+    margin-top: 1%;
+    height: 50px;
+    width:300px;
+    font-size: x-large;
+}
+.search-bar button{
+   height:50px; 
+   border-radius: 25px;
+   margin-top: 1%;
+   width:50px;
+   cursor: pointer;
+}
+.mid
+{
+    font-size: larger;
+    border-style:groove;
+    border-color: black;
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: white;
+    
+}
+
+.mid p
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+.mid input
+{
+    border-radius: 25px ;
+}
+
+.mid button
+{
+    margin-left:42%;
+    margin-right:42%;
+    height: 50px;
+    width:16%;
+    background-color: cyan;
+    border: groove;
+    border-color: black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.mid select
+{
+    border-radius: 25px;
+}
+@media screen and (max-width:768px)
+{
+    header form
+    {
+        display: none;
+    }
+}
